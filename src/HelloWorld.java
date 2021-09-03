@@ -59,6 +59,12 @@ public class HelloWorld {
 //            Hint: Integer.MAX_VALUE is a class constant (we'll learn more about these later) that holds the maximum value for the int type.
 
             System.out.println(Integer.MAX_VALUE);
+
+            int testInteger = 2147483647;
+            System.out.println(++testInteger);
+
+            // a small number is fine but a big number is tooooo big
+//            if we use the test integer it will make it negative
         }
 }
 
