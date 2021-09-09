@@ -41,18 +41,18 @@ public class ControlFlowExercises {
 //  One of the most common interview questions for entry-level programmers is the FizzBuzz test. Developed by Imran Ghory, the test is designed to assess basic looping and conditional logic skills.
 //
 //  Write a program that prints the numbers from 1 to 100.
-            int i = 1;
-            while (i <= 100) {
-                if (int % 3 === 0 int % 5 === 0) {
-                    System.out.println("Fizzbuzz");
-                } else if (int % 3 === 0) {
-                    System.out.println("Fizz");
-                } else if (int % 5 === 0) {
-                    System.out.println("Buzz");
-                } else {
-                    System.out.println(int);
-                }
-            }
+//            int i = 1;
+//            while (i <= 100) {
+//                if (int % 3 === 0 int % 5 === 0) {
+//                    System.out.println("Fizzbuzz");
+//                } else if (int % 3 === 0) {
+//                    System.out.println("Fizz");
+//                } else if (int % 5 === 0) {
+//                    System.out.println("Buzz");
+//                } else {
+//                    System.out.println(int);
+//                }
+//            }
 //  For multiples of three: print “Fizz” instead of the number.
 //  For the multiples of five: print “Buzz”.
 //  For numbers which are multiples of both three and five: print “FizzBuzz”.
@@ -60,19 +60,19 @@ public class ControlFlowExercises {
 
 
 //                Display a table of powers.
-        int i = 0;
-        int userInput2 = 0;
-        do {
-            System.out.println("Please enter an integer");
-            int userInput = scanner.nextInt();
-            System.out.println("");
-            System.out.println("Here is your table!");
-            System.out.println("number | squared | cubed");
-            System.out.println("------ | ------- | -----");
-
-            for (i = 1; i <= userInput; i++)
-                System.out.println("%-7d| %-8d| %-5d%n", i, i * i, i * i * i);
-            System.out.println("would you like to continue? 0 for no // 1 for yes ");
+//        int i = 0;
+//        int userInput2 = 0;
+//        do {
+//            System.out.println("Please enter an integer");
+//            int userInput = scanner.nextInt();
+//            System.out.println("");
+//            System.out.println("Here is your table!");
+//            System.out.println("number | squared | cubed");
+//            System.out.println("------ | ------- | -----");
+//
+//            for (i = 1; i <= userInput; i++)
+//                System.out.println("%-7d| %-8d| %-5d%n", i, i * i, i * i * i);
+//            System.out.println("would you like to continue? 0 for no // 1 for yes ");
 
 //            userInput2 = scanner.nextInt();
 //            if (userInput2 == 1) {
@@ -106,6 +106,6 @@ public class ControlFlowExercises {
 //      Create a class called myTherapist
 //      It should ask you how you are doing today?
 //      Based on your response, it should give you some sort of advice.
-        }
+//        }
         }
 }
