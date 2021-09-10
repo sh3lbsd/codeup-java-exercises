@@ -7,7 +7,8 @@ public class MethodsExercises {
 //        System.out.println(multiply(5, 4));
 //        System.out.println(divide(1, 2));
 //        System.out.println(modulo(5, 4));
-        int userInput = getInteger(1, 10);
+//        int userInput = getInteger(1, 10);
+        diceRoll();
     }
     //    number 1
     public static int add ( int num1, int num2) {
@@ -54,6 +55,8 @@ public class MethodsExercises {
 
 
     public static long factorial(int x) {
+        // a method that calls itself over and over again until you get what you want
+        // base case:  when do you want to stop?
         if(x==1) return 1;
         return x * factorial(x-1);
     }
