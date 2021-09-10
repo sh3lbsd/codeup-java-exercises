@@ -18,7 +18,7 @@ public class StringExercise {
                 System.out.println("Sure");
             } else if (userQuestion.endsWith("!")) {
                 System.out.println("Whoa, chill out!");
-            } else if (userQuestion.endsWith("")) {
+            } else if (userQuestion == "") {
                 System.out.println("Fine. Be that way!");
             } else {
                 System.out.println("Whatever");
