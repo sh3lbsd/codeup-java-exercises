@@ -3,6 +3,7 @@ public class CatTest {
         Cat roxy = new Cat();
         roxy.name = "Roxy";
         roxy.sound = "meOOOOOWWWWWWWWW";
+        roxy.makeNoise();
         System.out.println(roxy.makeNoise());
     }
 }
