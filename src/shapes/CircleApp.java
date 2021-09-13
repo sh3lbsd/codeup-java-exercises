@@ -6,7 +6,7 @@ public class CircleApp {
     public static void main(String[] args) {
 
         boolean isRunning = true;
-        // this is the input class constructor so we can use the getDouble method to find the radius of the
+        // this is the input class constructor... so we can use the getDouble method to find the radius of the
         Input input = new util.Input();
         int numCircles = 0;
         // while isRunning variable is true then keep making circles
