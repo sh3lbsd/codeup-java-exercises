@@ -47,7 +47,7 @@ public class Product {
         for (Product product : products) {
             total += product.getPriceInCents();
         }
-        return / products.length;
+        return total / products.length;
     }
 
     public static void main(String[] args) {
