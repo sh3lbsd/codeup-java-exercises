@@ -12,9 +12,9 @@ public class ArraysExercises {
         people[1] = new Person("OJ");
         people[2] = new Person("Anthony");
 
-        for (int i = 0; i < people.length; i += 1) {
-            System.out.println(people[i]);
-        }
+//        for (int i = 0; i < people.length; i += 1) {
+//            System.out.println(people[i]);
+//        }
         for (Person person : people) {
             System.out.println(person.getName());
         }
