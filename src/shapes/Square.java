@@ -3,27 +3,24 @@ package shapes;
 //        perimeter = 4 x side
 //        area = side ^ 2
 public class Square extends Rectangle {
+    private double side;
 
+//      constructor
         public Square(double side) {
             super(side, side);
+//            we put this line is so the private prop gets set upon creation
+            this.side = side;
         }
 
         public double getPerimeter() {
-            return 4 * length;
+            System.out.println("Square getPerimeter method");
+
+            return 4 * side;
         }
 
         public double getArea() {
-            return length * width;
-        }
-
-        public void setLength(double length) {
-            this.length = length;
-            this.width = length;
-        }
-
-        public void setWidth(double width) {
-            this.width = width;
-            this.length = width;
+            System.out.println("Square getArea method");
+            return side * side;
         }
 }
 

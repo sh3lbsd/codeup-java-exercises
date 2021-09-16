@@ -3,28 +3,42 @@ package shapes;
 public class Rectangle {
     protected double width;
     protected double length;
-
-    public double Rectangle(length, width) {
-        super(length, width);
+    public double getLength() {
+        return length;
     }
 
     public void setLength(double length) {
+        this.length = length;
+    }
 
+    public double getWidth() {
+        return width;
     }
 
     public void setWidth(double width) {
-
+        this.width = width;
     }
-
 //        Create two methods on the Rectangle class, getArea and getPerimeter that return the respective values. The formulas for both follow:
 //        perimeter = 2 x length + 2 x width
 //        area = length x width
     public double getPerimeter() {
-        return (length * 2) + (width * 2);
+        System.out.println("Rectangle getPerimeter method");
+        return ((this.length * 2) + (this.width * 2));
     }
 
     public double getArea() {
-        return length * width;
+        System.out.println("Rectangle getArea method");
+        return this.length * this.width;
+    }
+
+
+    //  default constructor
+    public Rectangle(){};
+
+    //  getters n setters
+    public Rectangle(double length, double width) {
+        this.length = length;
+        this.width = width;
     }
 
 }
