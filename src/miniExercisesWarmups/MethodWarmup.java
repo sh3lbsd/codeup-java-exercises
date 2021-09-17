@@ -1,3 +1,4 @@
+package miniExercisesWarmups;
 import java.util.Scanner;
 //TODO: create a class, MethodWarmup, and add an empty main method.
 //        TODO: create a method, getDifference, that takes in two integers and returns the difference between the higher integer and the lower integer (subtract).
@@ -15,13 +16,13 @@ import java.util.Scanner;
 //    }
 
 
-    // TODO: use recursion to add all numbers up, from 1 to the given number input
+// TODO: use recursion to add all numbers up, from 1 to the given number input
     /*
         addNums(5) would trigger a calculation of...
             5 + 4 + 3 + 3 + 1, evaluating to 15
      */
-    // Returns sum of first
-    // n natural numbers
+// Returns sum of first
+// n natural numbers
 //    public static int addNums(int n)
 //    {
 //        if (n <= 1)
@@ -35,3 +36,6 @@ import java.util.Scanner;
 //        System.out.println(addNums(n));
 //    }
 //}
+
+public class MethodWarmup {
+}

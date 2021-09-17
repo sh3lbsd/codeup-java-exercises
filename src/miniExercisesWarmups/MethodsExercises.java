@@ -1,3 +1,5 @@
+package miniExercisesWarmups;
+
 import java.util.Scanner;
 
 public class MethodsExercises {
