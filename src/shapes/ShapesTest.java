@@ -5,10 +5,12 @@ package shapes;
 //        Test your code by creating instances of both Square and Rectangle and assigning them to myShape so you can display the shape's area and perimeter.
 public class ShapesTest {
     public static void main(String[] args) {
-        Measurable myShape = new Rectangle(4, 5);
-        //        Measurable myShape = new Square(5);
+        Measurable myShape = new Rectangle(5, 4);
+//                Measurable myShape = new Square(5);
 
-        Quadrilateral theirShape = new Rectangle(3,4);
+        Quadrilateral theirShape = new Rectangle(8,4);
+        System.out.println(myShape.getArea());
+        System.out.println(myShape.getPerimeter());
         System.out.println(theirShape.getLength());
         System.out.println(theirShape.getWidth());
 
