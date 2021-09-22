@@ -8,8 +8,7 @@ public class MyMathMethodsTest {
 //        System.out.println(mathMethods.multiply(4, 5));
 //        System.out.println(MyMathMethods.multiply(5,5));
 //        System.out.println(MyMathMethods.multiply(5.6., 3.4));
-        int[] myArray = {3, 4, 5};
-        System.out.println(MyMathMethods.arraySum(myArray));
+        System.out.println(MyMathMethods.arraySum(new int[] {3, 4, 5}));
 
 
     }
