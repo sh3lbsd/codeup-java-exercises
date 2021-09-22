@@ -6,6 +6,11 @@ public class MyMathMethodsTest {
 //        System.out.println(absoluteValueTest);
 //        MyMathMethods mathMethods = new MyMathMethods();
 //        System.out.println(mathMethods.multiply(4, 5));
-        System.out.println(MyMathMethods.multiply(5,5));
+//        System.out.println(MyMathMethods.multiply(5,5));
+//        System.out.println(MyMathMethods.multiply(5.6., 3.4));
+        int[] myArray = {3, 4, 5};
+        System.out.println(MyMathMethods.arraySum(myArray));
+
+
     }
 }
