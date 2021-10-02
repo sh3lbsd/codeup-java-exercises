@@ -7,7 +7,7 @@ public class Input {
      public String getString(String prompt) {
          System.out.println(prompt);
          String userInput = scanner.nextLine();
-         return userInput;
+         return userInput.trim();
      }
     // BONUS: If passed, the method should show the given prompt to the user before parsing the input.
     public String getString(){
