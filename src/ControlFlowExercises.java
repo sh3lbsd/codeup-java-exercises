@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 //NOT FINISHED
 public class ControlFlowExercises {
         public static void main(String[] args) {
@@ -30,16 +31,24 @@ public class ControlFlowExercises {
 //              System.out.println(i);
 //              i*=i;
 //          }
-////      Create a do-while loop that starts at 2, and displays the number squared on each line while the number is less than 1,000,000. Output should equal:
-//                need help with this one
-
-
-
-
-//  Fizzbuzz
+//////      Create a do-while loop that starts at 2, and displays the number squared on each line while the number is less than 1,000,000. Output should equal:
+//                2
+//                4
+//                16
+//                256
+//                65536
+//        long i = 2;
+//        do {
+//            System.out.println(i);
+//            i*=i;
 //
-//  One of the most common interview questions for entry-level programmers is the FizzBuzz test. Developed by Imran Ghory, the test is designed to assess basic looping and conditional logic skills.
-//
+//        } while (i < 1000000);
+
+
+
+
+
+
 //  Write a program that prints the numbers from 1 to 100.
 //        int i = 1;
 //        while(i < 100) {
@@ -102,31 +111,30 @@ public class ControlFlowExercises {
 //                D : 66 - 60
 //                F : 59 - 0
 
-                Scanner scanner = new Scanner(System.in);
-                System.out.println("Enter a grade: ");
-                int testScore = scanner.nextInt();
-
-                if (testScore >= 90) {
-
-                        System.out.println("A");
-
-                } else if (testScore >= 80) {
-
-                        System.out.println("B");
-
-                } else if (testScore >= 70) {
-
-                        System.out.println("C");
-
-                } else if (testScore >= 60) {
-
-                        System.out.println("D");
-
-                } else {
-
-                        System.out.println("F");
-
-                }
+//                Scanner scanner = new Scanner(System.in);
+//                System.out.println("Enter a grade: ");
+//                int testScore = scanner.nextInt();
+//
+//                if (testScore >= 90) {
+//
+//                        System.out.println("A");
+//
+//                } else if (testScore >= 80) {
+//
+//                        System.out.println("B");
+//
+//                } else if (testScore >= 70) {
+//
+//                        System.out.println("C");
+//
+//                } else if (testScore >= 60) {
+//
+//                        System.out.println("D");
+//
+//                } else {
+//
+//                        System.out.println("F");
+//                }
 //            WARM UP
 //      Create a class called myTherapist
 //      It should ask you how you are doing today?
