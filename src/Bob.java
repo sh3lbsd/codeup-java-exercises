@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class StringExercise {
+public class Bob {
     public static void main(String[] args) {
 //        Create a class named Bob with a main method for the following exercise.
 
