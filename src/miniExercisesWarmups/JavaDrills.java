@@ -58,3 +58,16 @@ public class JavaDrills {
         System.out.println(returnTotalDifference(Arrays.asList(10,2,3),Arrays.asList(1,2,3)));
 }
 }    returnTotalDifference(Arrays.asList(10, 1), Arrays.asList(1, 7, 1)); // returns 2
+
+
+
+//        ================================= WARM UP
+//        In `codeup-java-exercises`, in`JavaDrills`, add the following:
+//        Create a public static method, `flipInnerCase`, that takes in a string and returns the string
+//        with the case of all letters reversed EXCEPT for the first and last letters. Assume the input will be three or more characters long.
+//        Example inputs and expected outputs...
+//        System.out.println(flipInnerCase(“cat”)); // cAt
+//        System.out.println(flipInnerCase(“CaT”)); // CAT
+//        System.out.println(flipInnerCase(“caT”)); // cAT
+//        System.out.println(flipInnerCase(“codeup”)); // cODEUp
+//        System.out.println(flipInnerCase(“CoDeup”)); // COdEUp
